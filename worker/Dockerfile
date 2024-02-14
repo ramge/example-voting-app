@@ -1,5 +1,4 @@
-FROM microsoft/dotnet:2.0.0-sdk
-
+FROM mcr.microsoft.com/dotnet/sdk:2.1
 WORKDIR /code
 
 ADD src/Worker /code/src/Worker
